@@ -9,7 +9,7 @@ For the front end, it used HTML5, JavaScript with jQuery and DOM Manipulation, a
 
 For the back end, it used Node.js with RESTful routing and CRUD principles.
 
-The Server framework was done with Express.js, while MongoDB, with Mongoose was used for the Database.
+The Server framework was done with Express.js, while MongoDB, with Mongoose (Object Data Modeling library) was used for the Database.
 
 The project was mainly completed on the cloud IDE service goormIDE.
 
