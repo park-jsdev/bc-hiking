@@ -16,7 +16,10 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
 
-mongoose.connect("mongodb://localhost:27017/bc_hiking_v11", {useNewUrlParser: true, useUnifiedTopology: true});
+//the development database
+// mongoose.connect("mongodb://localhost:27017/bc_hiking_v11", {useNewUrlParser: true, useUnifiedTopology: true});
+//dedicated hosted database
+mongoose.connect("mongodb+srv://parkjsdev:t1993723p@cluster0-4avoh.mongodb.net/bc_hiking?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
