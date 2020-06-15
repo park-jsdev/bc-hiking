@@ -1,18 +1,49 @@
-# bc-hiking
-A demo/hobby web application for uploading and commenting on local hiking trails.
+# BC-Hiking
+A Node.js web application powered by Express and MongoDB where users can sign up, upload and comment on local hiking trails.
+![Screenshot](https://i.imgur.com/KEmcpqu.png)
 
-This web application was made by a student following Colt Steele's "The Web Developer Bootcamp", for the purpose of education and demonstration.
+## Features
+- **Sign Up**: Create an account. Only signed in users can perform actions in the application
+- **Post a Trail**: Users can post a trail, with an image, description, and other info
+- **Comment**: Users can comment on trail posts
+- **Edit/Delete**: Users can edit or delete their posts or comments. Only admin can do this for others' posts
 
-It was made primarily using the MEAN stack. However, Angular.js was not used.
+![Screenshot](https://i.imgur.com/o1ZMXPp.png)
+![Screenshot](https://i.imgur.com/z5iNzOK.png)
 
-For the front end, it used HTML5, JavaScript with jQuery and DOM Manipulation, and CSS with Bootstrap.
+## Technologies / Requirements
+- [Node v4+](https://nodejs.org/en/)
+- [MongoDB v2+](https://www.mongodb.com/)
 
-For the back end, it used Node.js with RESTful routing and CRUD principles.
+# Getting Started
 
-The Server framework was done with Express.js, while MongoDB, with Mongoose (Object Data Modeling library) was used for the Database.
+## Installing
+Clone the repo to your system and run ``npm install`` to install all the dependencies.
 
-The project was mainly completed on the cloud IDE service goormIDE.
+## Usage
+Go to the root directory and run ``npm start`` to start the application.
+Access it at localhost:3000
 
-Heroku was used for the dedicated server, as well as MongoDB Atlas for the dedicated database.
+## Testing
+TODO
 
-Git and the command line were also used during development.
+## Deployment
+The application was deployed on to Heroku for the dedicated server.
+
+## Roadmap / TODO
+- Campground location with Google Maps
+- Authentication flash messages 
+- Display time since post was created with Moment JS 
+- User profile
+- User private messaging
+- Messenger system
+- Password reset 
+- Admin delete/ban users
+- In-app notifications
+- Donation payment system with Stripe API
+
+## License
+This project is licensed under the terms of the license.
+
+## Credits
+- [Colt Steele's "The Web Developer Bootcamp"](https://www.udemy.com/course/the-web-developer-bootcamp/)
