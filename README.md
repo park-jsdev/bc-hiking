@@ -47,7 +47,7 @@ The application was deployed on to Heroku for the dedicated server.
 - Donation payment system with Stripe API
 
 ## License
-This project is licensed under the terms of the license.
+This project is licensed under the terms of the [MIT](https://github.com/park-jsdev/bc-hiking/blob/master/LICENSE) license. 
 
 ## Credits
 - [Colt Steele's "The Web Developer Bootcamp"](https://www.udemy.com/course/the-web-developer-bootcamp/)
