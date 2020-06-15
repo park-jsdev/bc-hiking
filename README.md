@@ -37,7 +37,8 @@ The application was deployed on to Heroku for the dedicated server.
 ## Roadmap / TODO
 - Campground location with Google Maps
 - Authentication flash messages 
-- Display time since post was created with Moment JS 
+- Display time since post was created with Moment JS
+- Check users database from web client side as admin
 - User profile
 - User private messaging
 - Messenger system
