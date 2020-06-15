@@ -1,4 +1,4 @@
-# BC-Hiking
+# BC Hiking
 A Node.js web application powered by Express and MongoDB where users can sign up, upload and comment on local hiking trails.
 ![Screenshot](https://i.imgur.com/KEmcpqu.png)
 
