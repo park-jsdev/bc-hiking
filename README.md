@@ -7,7 +7,7 @@ A Node.js web application powered by Express and MongoDB where users can sign up
 - **Post a Trail**: Users can post a trail, with an image, description, and other info
 - **Comment**: Users can comment on trail posts
 - **Edit/Delete**: Users can edit or delete their posts or comments. Only admin can do this for others' posts
-
+\
 
 ![Screenshot](https://i.imgur.com/o1ZMXPp.png)
 
