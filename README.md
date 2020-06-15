@@ -9,6 +9,7 @@ A Node.js web application powered by Express and MongoDB where users can sign up
 - **Edit/Delete**: Users can edit or delete their posts or comments. Only admin can do this for others' posts
 
 ![Screenshot](https://i.imgur.com/o1ZMXPp.png)
+
 ![Screenshot](https://i.imgur.com/z5iNzOK.png)
 
 ## Technologies / Requirements
