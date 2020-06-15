@@ -45,6 +45,7 @@ The application was deployed on to Heroku for the dedicated server.
 - Admin delete/ban users
 - In-app notifications
 - Donation payment system with Stripe API
+- Setup continuous integration
 
 ## License
 This project is licensed under the terms of the [MIT](https://github.com/park-jsdev/bc-hiking/blob/master/LICENSE) license. 
