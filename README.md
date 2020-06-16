@@ -39,8 +39,9 @@ The application was deployed on to Heroku for the dedicated server.
 
 ## Roadmap / TODO
 - Ratings system
-- Make hiking trail posts on main page same sized
+- Make Post previews on main page even-sized
 - More Google Maps interactivity
+- Easier way to access database for admin
 - Fuzzy Search
 - Authentication flash messages 
 - Display time since post was created with Moment JS
