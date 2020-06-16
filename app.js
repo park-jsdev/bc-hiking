@@ -19,13 +19,13 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 //the development database
-// mongoose.connect("mongodb://localhost:27017/bc_hiking_v11.2", {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect("mongodb://localhost:27017/bc_hiking_v11", {useNewUrlParser: true, useUnifiedTopology: true});
 
 //dedicated hosted database
 // mongoose.connect(process.env.DATABASEURL);
 
 //dedicated with hidden databaseurl on heroku with localhost backup.
-var url = process.env.DATABASEURL || "mongodb://localhost:27017/bc_hiking_v11.2"
+var url = process.env.DATABASEURL || "mongodb://localhost:27017/bc_hiking_v11"
 mongoose.connect(url);
 
 app.use(bodyParser.urlencoded({extended: true}));
