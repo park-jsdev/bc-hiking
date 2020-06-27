@@ -3,7 +3,7 @@ A Node.js web application powered by Express and MongoDB where users can sign up
 ![Screenshot](https://i.imgur.com/UpEgSVD.png)
 
 ## Features
-= **Beautiful Landing Page**: Responsive, cross-platform landing page for visitors
+- **Beautiful Landing Page**: Responsive, cross-platform landing page for visitors
 - **Sign Up**: Users can create an account. Only signed in users can perform actions in the application
 - **Login**: Users can log in once they have created an account
 - **Post a Trail**: Users can post a trail, with an image, description, and other info
